@@ -1,0 +1,99 @@
+/* .container-fluid{
+    height:15%;
+    background-color: rgb(53,58,64);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:1rem 5rem;
+    
+} */
+
+.navbar {
+    padding: 0%;
+}
+
+.conf{
+    position: absolute;
+    right: 50px;
+    bottom: 200px;
+    text-align: right;
+    width:40%
+}
+
+
+.header{
+    background-color: rgb(56, 56, 56);
+    
+    height: 100vh;
+}
+
+.carousel-item img{
+    filter: brightness(0.4);
+}
+.orar{
+    color: white;
+    margin-bottom: 10%;
+}
+.tick{
+    margin-bottom: 10%;
+}
+.losOradores{
+    text-align: center;
+}
+.conoce{
+    font-size: medium;
+}
+
+.conviertete comprar{
+    border: 5px solid #4d5255;
+}
+/* .playa{
+    display:flex;
+    align-items: stretch;/*estira en el eje contrario al eje principal del contenedor*/
+    /* height: 50vh;
+    filter: opacity(0.4);
+    color:white;
+    
+} */ 
+
+.col-4{
+    width:50%;
+    border-right: 1px solid white;
+    padding: 1%;
+}
+
+.col-6{
+    font-size: small;
+}
+/* .nombreYapellido{
+    width: 50%;
+} */
+.formularioOrador{
+    width:50%;
+    height: 42vh;
+    margin:2rem auto;
+    text-align: center;
+}
+.conviertete{
+    font-size: small;
+    font-style: normal;
+}
+.footer{
+    margin-top: 12rem!important;
+    font-size: 0.6rem;
+    background:linear-gradient( to right, #1d3947,#1d4962, #1e5372) ;
+    height: 12vh;
+}
+.contenedorFooter{
+    width:70%;
+    height: 100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedorFooter a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
